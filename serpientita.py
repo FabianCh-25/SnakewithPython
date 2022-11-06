@@ -104,7 +104,7 @@ while True:
         
     # aparicion manzana // posicion - y cuando ocurre
     if not food_spawn:
-        food_spawn = [random.randrange(1,(tamaño_ancho//cuadro_tamaño))* cuadro_tamaño,
+        food_pos = [random.randrange(1,(tamaño_ancho//cuadro_tamaño))* cuadro_tamaño,
                 random.randrange(1,(tamaño_alto//cuadro_tamaño))* cuadro_tamaño]
         food_spawn =True
     #GFX
