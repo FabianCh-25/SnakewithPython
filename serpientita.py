@@ -106,7 +106,7 @@ while True:
     if not food_spawn:
         food_spawn = [random.randrange(1,(tamaño_ancho//cuadro_tamaño))* cuadro_tamaño,
                 random.randrange(1,(tamaño_alto//cuadro_tamaño))* cuadro_tamaño]
-    
+        food_spawn =True
     #GFX
     game_Window.fill(black)
     for pos in snake_body:
